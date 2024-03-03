@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:background="@color/hinhnen_titleshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            android:layout_centerVertical="true"
+            android:id="@+id/left_icon"
+            />
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/left_icon"
+            android:text="SHOP QUẦN ÁO ĐẸP"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </ViewFlipper>
+
+
+    <TextView
+        android:id="@+id/txtNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW ARRIVAL"
+        android:layout_marginTop="300dp"
+        android:textSize="50dp"
+        android:textColor="#FF000000"/>
+</FrameLayout>
