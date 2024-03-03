@@ -28,7 +28,7 @@
             android:layout_marginStart="13dp"
             android:layout_toEndOf="@+id/left_icon"
             android:text="SHOP QUẦN ÁO ĐẸP 2"
-            android:textSize="20sp"
+            android:textSize="21sp"
             android:textStyle="bold" />
     </RelativeLayout>
 
